@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ogw+rx hello
+chmod -R 751 hello
