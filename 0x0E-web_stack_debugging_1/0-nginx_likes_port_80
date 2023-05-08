@@ -5,6 +5,5 @@
 # issue. Then, write a Bash script with the minimum number of commands to
 # automate your fix.
 
-rm /etc/nginx/sites-enabled/default
-ls -s /etec/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo sed -i "s/sites-enabled/sites-available/" /etc/nginx/nginx.conf
 sudo service nginx restart
